@@ -11,5 +11,6 @@ Hyml1BtnA.onclick = () => {
         Hyml1BtnA.setAttribute("href", "./index2.html")
     }else{
         Html1H1.innerHTML = "Ism Xato<i class='bx bx-comment-x' ></i>"
+        Html1H1.style.color = "red"
     }
 }

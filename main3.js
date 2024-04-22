@@ -10,10 +10,11 @@ const h12 = document.querySelector(".h12")
 const h13 = document.querySelector(".h13")
 const Box2Btn = document.querySelector(".Box2Btn")
 const BBA = document.querySelector(".BBA")
+const i6 = document.querySelector(".i6")
 
 
 html3btnA.onclick = () => {
-    if (Html3Input.value <= "10000") {
+    if (Html3Input.value >= "10000") {
       box.style.display = "none"  
       box2.style.display = "block"  
         
@@ -22,8 +23,12 @@ html3btnA.onclick = () => {
      h13.innerHTML = `Sizda Qolgan Pul: ${"10000" - Html3Input.value}`
     }else{
         Html3H1.innerHTML = "Sizda Buncha Pul Mavjudmas<i class='bx bx-comment-x' ></i>"
+        Html3H1.style.color = "red"
     }
 }
 BBA.onclick = () =>{
     BBA.setAttribute("href", "./index.html")
+}
+i6.onclick = () =>{
+    i6.setAttribute("href", "./index2.html")
 }

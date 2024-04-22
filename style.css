@@ -27,6 +27,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 0 0 0 50px;
+    position: relative;
 }
 .html1H1{
     font-size: 48px;
@@ -139,6 +140,7 @@ a{
     border-radius: 15px;
     padding: 50px;
     display: none;
+    position: relative;
 }   
 .h11{
     margin-bottom: 20px;
@@ -157,4 +159,44 @@ a{
     background-color: cadetblue;
     color: white;
     border-radius: 5px;
+}
+.i1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 0 0 20px;
+    font-size: 28px;
+    color: darkblue ;
+}
+.i2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 20px 0 0;
+    font-size: 28px;
+    color: darkblue ;
+}
+.i3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 20px 20px 0;
+    font-size: 28px;
+    color: darkblue ;
+}
+.i4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 0 20px 20px;
+    font-size: 28px;
+    color: darkblue ;
+}
+.i5{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    padding: 0 0 20px 20px;
+    font-size: 35px;
+    cursor: pointer;
 }
